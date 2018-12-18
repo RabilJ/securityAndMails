@@ -17,6 +17,15 @@ public class User {
     private String password;
 
     private boolean enabled;
+    private String activationKey;
+
+    public String getActivationKey() {
+        return activationKey;
+    }
+
+    public void setActivationKey(String activationKey) {
+        this.activationKey = activationKey;
+    }
 
     public Long getId() {
         return id;
